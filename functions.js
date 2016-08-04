@@ -47,7 +47,10 @@ console.log(subtract(n1,n2));
  *  Store this value in a variable named `product`
  */
 
-
+function multiply(a,b){
+	return a * b;
+}
+console.log (multiply(n1,n2));
 /**
  *  #5
  *  Function - checkDifference
@@ -58,6 +61,12 @@ console.log(subtract(n1,n2));
  *  value stored in `difference`.
  */
 
+var difference = 7;
+function checkDifferences (loss){
+	
+	return "My football team lost " + loss + " times this week!";
+}
+console.log (checkDifferences(difference));
 
 /**
  *  #6
