@@ -12,7 +12,8 @@
  *  functions.
  */
 
-
+var n1 = 6
+var n2 = 19
 /**
  *  #2
  *  Function - add
@@ -21,7 +22,11 @@
  *  Store this value in a variable named `sum`.
  */
 
+function add(a,b){
+	return a + b;
+}
 
+console.log(add(n1,n2));
 /**
  *  #3
  *  Function - subtract
@@ -29,8 +34,11 @@
  *  This function returns the result of subtracting `b` from `a`.
  *  Store this value in a variable named `difference`
  */
-
-
+function subtract(a,b){
+	return a - b;
+}
+console.log(subtract(n2,n1));
+console.log(subtract(n1,n2));
 /**
  *  #4
  *  Function - multiply
